@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Coins } from "lucide-react";
 import Link from "next/link";
 
-export const Logo = () => {
+const Logo = () => {
   return (
     <Link
       href="/"
