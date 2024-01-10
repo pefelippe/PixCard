@@ -39,14 +39,14 @@ const Header = () => {
 
 const HeroText = () => {
   return (
-    <div className="max-w-3xl  flex flex-col items-start justify-center text-start h-full w-full gap-7">
-      <h1 className="text-8xl font-bold tracking-tight ">
+    <div className=" flex flex-col items-center justify-center text-center h-full w-full gap-4">
+      <h1 className="text-7xl font-bold tracking-tight max-w-2xl">
         Crie seu card pessoal pix customizável.
       </h1>
-      <h3 className="text-2xl font-normal tracking-normal text-muted">
+      <h3 className="text-xl font-normal tracking-normal text-slate-300 ">
         Crie uma conta e comece a receber doações Pix.
       </h3>
-      <Button className="p-8 rounded-full text-xl max-w-sm w-full text-white hover:bg-primary/80 transition-all">
+      <Button className="py-7 rounded-full text-xl max-w-sm w-fit px-10 text-white hover:bg-primary/80 transition-all">
         Criar meu card
       </Button>
     </div>
